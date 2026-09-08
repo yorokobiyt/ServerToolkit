@@ -8,7 +8,7 @@ A modern, open-source collection of tools for Minecraft server owners and develo
 - Fully responsive — works on desktop, tablet, and mobile
 - Privacy focused — all tools run locally in your browser
 - Lightweight — no external dependencies except Font Awesome and Google Fonts
-- Free and open source — MIT licensed
+- Free and open source — Apache-2.0 license
 
 ## Tools
 
