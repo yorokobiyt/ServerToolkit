@@ -1,16 +1,37 @@
-MIT License
-
 Copyright (c) 2026 Yorokobi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Attribution
+
+The above copyright notice and this license must be included in all copies
+or substantial portions of the Software.
+
+When redistributing the Software or substantial portions of the Software,
+the original author, Yorokobi, must be clearly credited.
+
+Attribution must include the following:
+
+"ServerToolkit by Yorokobi"
+
+2. Modifications
+
+You are permitted to modify, extend, fork, and create derivative works based
+on the Software. Modifications may be distributed under different terms,
+provided that the original copyright notice and required attribution remain
+intact.
+
+3. Commercial Use
+
+You are permitted to use, distribute, and sell the Software or derivative
+works, provided that the attribution and copyright requirements above are
+maintained.
+
+4. No Warranty
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
