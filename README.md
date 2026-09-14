@@ -1,21 +1,49 @@
 # ServerToolkit
 
-A modern, open-source collection of tools for Minecraft server owners and developers. Built with vanilla HTML, CSS, and JavaScript — no frameworks, no build step, no server required.
+A modern, open-source collection of tools for Minecraft server owners and developers. Built with vanilla HTML, CSS, and JavaScript - no frameworks, no build step, no server required.
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-Apache--2.0-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Status](https://img.shields.io/badge/status-active-success)
 
 ## Features
 
 - Modern dark mode UI with rounded corners and smooth animations
-- Fully responsive — works on desktop, tablet, and mobile
-- Privacy focused — all tools run locally in your browser
-- Lightweight — no external dependencies except Font Awesome and Google Fonts
-- Free and open source — Apache-2.0 license
+- Fully responsive - works on desktop, tablet, and mobile
+- Privacy focused - all tools run locally in your browser
+- Lightweight - no external dependencies except Font Awesome and Google Fonts
+- Free and open source - Apache-2.0 license
+- Zero build step - open index.html directly in browser
+- Cross-platform compatible
+- Accessible design with semantic HTML
 
 ## Tools
 
-- **MOTD Generator** (`motd.html`) — Create and preview Minecraft MOTDs with colors and formatting. Supports both § and & color codes with live preview.
-- **Server Properties Editor** (`server-properties.html`) — Upload or paste your `server.properties` file, edit common settings, and download the modified file. All processing happens locally.
-- **Java Arguments Generator** (`java-arguments.html`) — Generate Java startup arguments based on server software, version, RAM, and performance preferences. Includes presets for common server types and advanced configuration options.
-- **Server Information** (`server-info.html`) — Query server status, version, and player count using the Minecraft server list ping protocol.
+- **MOTD Generator** (`motd.html`) - Create and preview Minecraft MOTDs with colors and formatting. Supports both § and & color codes with live preview.
+- **Server Properties Editor** (`server-properties.html`) - Upload or paste your `server.properties` file, edit common settings, and download the modified file. All processing happens locally.
+- **Java Arguments Generator** (`java-arguments.html`) - Generate Java startup arguments based on server software, version, RAM, and performance preferences. Includes presets for common server types and advanced configuration options.
+- **Server Information** (`server-info.html`) - Query server status, version, and player count using the Minecraft server list ping protocol.
+
+## Screenshots
+
+| Tool | Preview |
+|------|---------|
+| MOTD Generator | ![MOTD](https://via.placeholder.com/300x150/1a1a2e/00d9ff?text=MOTD+Generator) |
+| Server Properties | ![Properties](https://via.placeholder.com/300x150/1a1a2e/00d9ff?text=Server+Properties) |
+| Java Arguments | ![Java Args](https://via.placeholder.com/300x150/1a1a2e/00d9ff?text=Java+Arguments) |
+| Server Info | ![Server Info](https://via.placeholder.com/300x150/1a1a2e/00d9ff?text=Server+Info) |
+
+## Roadmap
+
+- [ ] Add more server software presets (Paper, Purpur, Folia, etc.)
+- [ ] Add server icon generator
+- [ ] Add player data editor
+- [ ] Add world border calculator
+- [ ] Add TPS calculator
+- [ ] Dark/light theme toggle persistence
+- [ ] Internationalization (i18n) support
+- [ ] PWA support for offline usage
 
 ## Getting Started
 
@@ -91,12 +119,12 @@ servertoolkit/
 
 ## Technologies Used
 
-- HTML5 — Semantic markup
-- CSS3 — Custom properties, flexbox, grid, animations
-- JavaScript (ES6+) — Vanilla JS, no frameworks
-- Font Awesome 6 — Icons
-- Google Fonts (Inter) — Typography
-- Mojang API — Minecraft version data
+- HTML5 - Semantic markup
+- CSS3 - Custom properties, flexbox, grid, animations
+- JavaScript (ES6+) - Vanilla JS, no frameworks
+- Font Awesome 6 - Icons
+- Google Fonts (Inter) - Typography
+- Mojang API - Minecraft version data
 
 ## Browser Support
 
@@ -120,3 +148,18 @@ Contributions are welcome. Please feel free to submit a pull request or open an 
 This is a static site. Edit the HTML, CSS, and JS files directly and refresh your browser to see changes.
 
 For the Java Arguments Generator, the Minecraft version list is fetched dynamically from the Mojang API. If the API is unreachable, the tool falls back to a static version list.
+
+## Forks
+
+All forks of this repository **must** update to the new license and comply with its terms. When the license is updated in the upstream repository, every fork is required to:
+
+1. Pull the latest license changes from upstream
+2. Update their LICENSE file to match
+3. Ensure all distributed copies comply with the new license terms
+4. Maintain attribution notices as required by the license
+
+See [FORKS.md](FORKS.md) for the complete fork policy.
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
