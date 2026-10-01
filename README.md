@@ -148,18 +148,6 @@ Contributions are welcome. Please feel free to submit a pull request or open an 
 This is a static site. Edit the HTML, CSS, and JS files directly and refresh your browser to see changes.
 
 For the Java Arguments Generator, the Minecraft version list is fetched dynamically from the Mojang API. If the API is unreachable, the tool falls back to a static version list.
-
-## Forks
-
-All forks of this repository **must** update to the new license and comply with its terms. When the license is updated in the upstream repository, every fork is required to:
-
-1. Pull the latest license changes from upstream
-2. Update their LICENSE file to match
-3. Ensure all distributed copies comply with the new license terms
-4. Maintain attribution notices as required by the license
-
-See [FORKS.md](FORKS.md) for the complete fork policy.
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
